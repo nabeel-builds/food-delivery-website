@@ -1,16 +1,102 @@
-# React + Vite
+# 🍔 Food Delivery Website (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern food delivery web application built using React and Redux. This project includes dynamic data handling, category filtering, search functionality, and a fully working add-to-cart system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🛒 Add to Cart functionality (Redux powered)
+* 🔍 Search food items instantly
+* 📂 Category-based filtering
+* ⚡ Fast and dynamic UI updates
+* 🤖 AI-generated food data
+* 📱 Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Redux (State Management)
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## 📂 Folder Structure
+
+```id="y9v2dk"
+src/
+ ├── assets/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Card.jsx
+ │    ├── Buycart.jsx
+ │    ├── Footer.jsx
+ ├── context/
+ │    └── UserContext.jsx
+ ├── pages/
+ │    └── Home.jsx
+ ├── Redux/
+ │    ├── CartSlice.js
+ │    └── Store.js
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## ⚡ Core Functionalities
+
+### 🛒 Add to Cart
+
+* Managed using Redux (`CartSlice.js`)
+* Users can add/remove items easily
+* Real-time cart updates
+
+### 🔍 Search
+
+* Instant filtering of food items
+* Improves user experience
+
+### 📂 Categories
+
+* Filter food based on categories (Pizza, Burger, etc.)
+* Clean UI interaction
+
+---
+
+## 🧠 How Data Works
+
+* Food data is AI-generated
+* Stored and managed in `food.js`
+* Rendered dynamically in components
+
+---
+
+## 📸 Preview
+
+<img width="1355" height="645" alt="image" src="https://github.com/user-attachments/assets/d0716824-23f8-4335-b4d4-dcc4498f9a2b" />
+
+
+---
+
+## 📌 Future Improvements
+
+* 💳 Payment Gateway Integration
+* 🔐 User Authentication (Login/Signup)
+* 📍 Live Order Tracking
+* 🌐 Backend Integration (API)
+
+---
+
+## 🙌 Author
+
+* Nabeel
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to give it a ⭐ on GitHub!
